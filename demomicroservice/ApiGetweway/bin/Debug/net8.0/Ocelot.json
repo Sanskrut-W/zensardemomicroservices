@@ -1,0 +1,44 @@
+{
+    "GlobalConfiguration": {
+        "Baseurl": "http://localhost:7000"
+    },
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/productsapi/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "catalogsevice",
+                    "Port": 8080
+                }
+            ],
+            "UpstreamPathTemplate": "/products/{id}",
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+        },
+
+        {
+            "DownstreamPathTemplate": "/api/ordersapi/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "orderssevice",
+                    "Port": 8080
+                }
+            ],
+            "UpstreamPathTemplate": "/orders",
+            "UpstreamHttpMethod": [ "GET", "POST"]
+        },
+        {
+            "DownstreamPathTemplate": "/api/ordersapi/product/{id}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "orderssevice",
+                    "Port": 8080
+                }
+            ],
+            "UpstreamPathTemplate": "/orders/product/{id}",
+            "UpstreamHttpMethod": [ "GET", "POST"]
+        }
+    ]
+}
