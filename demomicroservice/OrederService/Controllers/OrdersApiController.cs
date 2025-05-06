@@ -31,7 +31,7 @@ namespace OrederService.Controllers
         [HttpGet("product/{id}")]
         public async Task<Product> GetOrdersByProductId(Guid id)
         {
-            var response = await _httpClient.GetAsync($"http://apigateway:8080/products/{id}");
+            var response = await _httpClient.GetAsync($"http://apigetweway:8080/products/{id}");
             response.EnsureSuccessStatusCode();
             var product = await response.Content.ReadFromJsonAsync<Product>();
             return product!;
