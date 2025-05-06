@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrederService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91e14aabb1b283682d91a29184014f8a5d59b3ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4d046d2f5837ef54349318ef583d0b329e234b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrederService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrederService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
