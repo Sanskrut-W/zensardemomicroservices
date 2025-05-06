@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGetweway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91e14aabb1b283682d91a29184014f8a5d59b3ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7023accdca747089171b99d97b063017d1efd18d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGetweway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiGetweway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
