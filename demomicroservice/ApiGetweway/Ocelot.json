@@ -8,7 +8,7 @@
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "catalogsevice",
+                    "Host": "catalogservice",
                     "Port": 8080
                 }
             ],
@@ -21,7 +21,7 @@
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "orderssevice",
+                    "Host": "orederservice",
                     "Port": 8080
                 }
             ],
@@ -33,7 +33,7 @@
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
-                    "Host": "orderssevice",
+                    "Host": "orederservice",
                     "Port": 8080
                 }
             ],
